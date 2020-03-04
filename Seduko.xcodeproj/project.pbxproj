@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC1F686D240F59F0007FBA93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1F686C240F59F0007FBA93 /* AppDelegate.swift */; };
+		BC1F686F240F59F0007FBA93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1F686E240F59F0007FBA93 /* SceneDelegate.swift */; };
+		BC1F6871240F59F0007FBA93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1F6870240F59F0007FBA93 /* ViewController.swift */; };
+		BC1F6874240F59F0007FBA93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC1F6872240F59F0007FBA93 /* Main.storyboard */; };
+		BC1F6876240F59F1007FBA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC1F6875240F59F1007FBA93 /* Assets.xcassets */; };
+		BC1F6879240F59F1007FBA93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC1F6877240F59F1007FBA93 /* LaunchScreen.storyboard */; };
+		BC1F6884240F59F1007FBA93 /* SedukoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1F6883240F59F1007FBA93 /* SedukoTests.swift */; };
+		BC1F688F240F59F1007FBA93 /* SedukoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1F688E240F59F1007FBA93 /* SedukoUITests.swift */; };
+		BC1F689F240F5A97007FBA93 /* RowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1F689D240F5A97007FBA93 /* RowTableViewCell.swift */; };
+		BC1F68A0240F5A97007FBA93 /* RowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC1F689E240F5A97007FBA93 /* RowTableViewCell.xib */; };
+		BC1F68A3240F5F17007FBA93 /* SedokuItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1F68A1240F5F17007FBA93 /* SedokuItemCollectionViewCell.swift */; };
+		BC1F68A4240F5F17007FBA93 /* SedokuItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC1F68A2240F5F17007FBA93 /* SedokuItemCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC1F6880240F59F1007FBA93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1F6861240F59F0007FBA93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1F6868240F59F0007FBA93;
+			remoteInfo = Seduko;
+		};
+		BC1F688B240F59F1007FBA93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1F6861240F59F0007FBA93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1F6868240F59F0007FBA93;
+			remoteInfo = Seduko;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC1F6869240F59F0007FBA93 /* Seduko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seduko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1F686C240F59F0007FBA93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC1F686E240F59F0007FBA93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC1F6870240F59F0007FBA93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC1F6873240F59F0007FBA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC1F6875240F59F1007FBA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC1F6878240F59F1007FBA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC1F687A240F59F1007FBA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1F687F240F59F1007FBA93 /* SedukoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SedukoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1F6883240F59F1007FBA93 /* SedukoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SedukoTests.swift; sourceTree = "<group>"; };
+		BC1F6885240F59F1007FBA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1F688A240F59F1007FBA93 /* SedukoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SedukoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1F688E240F59F1007FBA93 /* SedukoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SedukoUITests.swift; sourceTree = "<group>"; };
+		BC1F6890240F59F1007FBA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1F689D240F5A97007FBA93 /* RowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowTableViewCell.swift; sourceTree = "<group>"; };
+		BC1F689E240F5A97007FBA93 /* RowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RowTableViewCell.xib; sourceTree = "<group>"; };
+		BC1F68A1240F5F17007FBA93 /* SedokuItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SedokuItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		BC1F68A2240F5F17007FBA93 /* SedokuItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SedokuItemCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC1F6866240F59F0007FBA93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1F687C240F59F1007FBA93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1F6887240F59F1007FBA93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC1F6860240F59F0007FBA93 = {
+			isa = PBXGroup;
+			children = (
+				BC1F686B240F59F0007FBA93 /* Seduko */,
+				BC1F6882240F59F1007FBA93 /* SedukoTests */,
+				BC1F688D240F59F1007FBA93 /* SedukoUITests */,
+				BC1F686A240F59F0007FBA93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC1F686A240F59F0007FBA93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC1F6869240F59F0007FBA93 /* Seduko.app */,
+				BC1F687F240F59F1007FBA93 /* SedukoTests.xctest */,
+				BC1F688A240F59F1007FBA93 /* SedukoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC1F686B240F59F0007FBA93 /* Seduko */ = {
+			isa = PBXGroup;
+			children = (
+				BC1F689C240F5A81007FBA93 /* Cell */,
+				BC1F686C240F59F0007FBA93 /* AppDelegate.swift */,
+				BC1F686E240F59F0007FBA93 /* SceneDelegate.swift */,
+				BC1F6870240F59F0007FBA93 /* ViewController.swift */,
+				BC1F6872240F59F0007FBA93 /* Main.storyboard */,
+				BC1F6875240F59F1007FBA93 /* Assets.xcassets */,
+				BC1F6877240F59F1007FBA93 /* LaunchScreen.storyboard */,
+				BC1F687A240F59F1007FBA93 /* Info.plist */,
+			);
+			path = Seduko;
+			sourceTree = "<group>";
+		};
+		BC1F6882240F59F1007FBA93 /* SedukoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC1F6883240F59F1007FBA93 /* SedukoTests.swift */,
+				BC1F6885240F59F1007FBA93 /* Info.plist */,
+			);
+			path = SedukoTests;
+			sourceTree = "<group>";
+		};
+		BC1F688D240F59F1007FBA93 /* SedukoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC1F688E240F59F1007FBA93 /* SedukoUITests.swift */,
+				BC1F6890240F59F1007FBA93 /* Info.plist */,
+			);
+			path = SedukoUITests;
+			sourceTree = "<group>";
+		};
+		BC1F689C240F5A81007FBA93 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BC1F689D240F5A97007FBA93 /* RowTableViewCell.swift */,
+				BC1F689E240F5A97007FBA93 /* RowTableViewCell.xib */,
+				BC1F68A1240F5F17007FBA93 /* SedokuItemCollectionViewCell.swift */,
+				BC1F68A2240F5F17007FBA93 /* SedokuItemCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC1F6868240F59F0007FBA93 /* Seduko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1F6893240F59F1007FBA93 /* Build configuration list for PBXNativeTarget "Seduko" */;
+			buildPhases = (
+				BC1F6865240F59F0007FBA93 /* Sources */,
+				BC1F6866240F59F0007FBA93 /* Frameworks */,
+				BC1F6867240F59F0007FBA93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seduko;
+			productName = Seduko;
+			productReference = BC1F6869240F59F0007FBA93 /* Seduko.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC1F687E240F59F1007FBA93 /* SedukoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1F6896240F59F1007FBA93 /* Build configuration list for PBXNativeTarget "SedukoTests" */;
+			buildPhases = (
+				BC1F687B240F59F1007FBA93 /* Sources */,
+				BC1F687C240F59F1007FBA93 /* Frameworks */,
+				BC1F687D240F59F1007FBA93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC1F6881240F59F1007FBA93 /* PBXTargetDependency */,
+			);
+			name = SedukoTests;
+			productName = SedukoTests;
+			productReference = BC1F687F240F59F1007FBA93 /* SedukoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC1F6889240F59F1007FBA93 /* SedukoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1F6899240F59F1007FBA93 /* Build configuration list for PBXNativeTarget "SedukoUITests" */;
+			buildPhases = (
+				BC1F6886240F59F1007FBA93 /* Sources */,
+				BC1F6887240F59F1007FBA93 /* Frameworks */,
+				BC1F6888240F59F1007FBA93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC1F688C240F59F1007FBA93 /* PBXTargetDependency */,
+			);
+			name = SedukoUITests;
+			productName = SedukoUITests;
+			productReference = BC1F688A240F59F1007FBA93 /* SedukoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC1F6861240F59F0007FBA93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Olivin Esguerra";
+				TargetAttributes = {
+					BC1F6868240F59F0007FBA93 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					BC1F687E240F59F1007FBA93 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BC1F6868240F59F0007FBA93;
+					};
+					BC1F6889240F59F1007FBA93 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = BC1F6868240F59F0007FBA93;
+					};
+				};
+			};
+			buildConfigurationList = BC1F6864240F59F0007FBA93 /* Build configuration list for PBXProject "Seduko" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC1F6860240F59F0007FBA93;
+			productRefGroup = BC1F686A240F59F0007FBA93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC1F6868240F59F0007FBA93 /* Seduko */,
+				BC1F687E240F59F1007FBA93 /* SedukoTests */,
+				BC1F6889240F59F1007FBA93 /* SedukoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC1F6867240F59F0007FBA93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1F68A0240F5A97007FBA93 /* RowTableViewCell.xib in Resources */,
+				BC1F68A4240F5F17007FBA93 /* SedokuItemCollectionViewCell.xib in Resources */,
+				BC1F6879240F59F1007FBA93 /* LaunchScreen.storyboard in Resources */,
+				BC1F6876240F59F1007FBA93 /* Assets.xcassets in Resources */,
+				BC1F6874240F59F0007FBA93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1F687D240F59F1007FBA93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1F6888240F59F1007FBA93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC1F6865240F59F0007FBA93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1F689F240F5A97007FBA93 /* RowTableViewCell.swift in Sources */,
+				BC1F6871240F59F0007FBA93 /* ViewController.swift in Sources */,
+				BC1F686D240F59F0007FBA93 /* AppDelegate.swift in Sources */,
+				BC1F68A3240F5F17007FBA93 /* SedokuItemCollectionViewCell.swift in Sources */,
+				BC1F686F240F59F0007FBA93 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1F687B240F59F1007FBA93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1F6884240F59F1007FBA93 /* SedukoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1F6886240F59F1007FBA93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1F688F240F59F1007FBA93 /* SedukoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC1F6881240F59F1007FBA93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1F6868240F59F0007FBA93 /* Seduko */;
+			targetProxy = BC1F6880240F59F1007FBA93 /* PBXContainerItemProxy */;
+		};
+		BC1F688C240F59F1007FBA93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1F6868240F59F0007FBA93 /* Seduko */;
+			targetProxy = BC1F688B240F59F1007FBA93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC1F6872240F59F0007FBA93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC1F6873240F59F0007FBA93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC1F6877240F59F1007FBA93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC1F6878240F59F1007FBA93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC1F6891240F59F1007FBA93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC1F6892240F59F1007FBA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC1F6894240F59F1007FBA93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK5U4289U7;
+				INFOPLIST_FILE = Seduko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmap.io.Seduko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC1F6895240F59F1007FBA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK5U4289U7;
+				INFOPLIST_FILE = Seduko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmap.io.Seduko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC1F6897240F59F1007FBA93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK5U4289U7;
+				INFOPLIST_FILE = SedukoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmap.io.SedukoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seduko.app/Seduko";
+			};
+			name = Debug;
+		};
+		BC1F6898240F59F1007FBA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK5U4289U7;
+				INFOPLIST_FILE = SedukoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmap.io.SedukoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seduko.app/Seduko";
+			};
+			name = Release;
+		};
+		BC1F689A240F59F1007FBA93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK5U4289U7;
+				INFOPLIST_FILE = SedukoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmap.io.SedukoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Seduko;
+			};
+			name = Debug;
+		};
+		BC1F689B240F59F1007FBA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CK5U4289U7;
+				INFOPLIST_FILE = SedukoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pmap.io.SedukoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Seduko;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC1F6864240F59F0007FBA93 /* Build configuration list for PBXProject "Seduko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1F6891240F59F1007FBA93 /* Debug */,
+				BC1F6892240F59F1007FBA93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1F6893240F59F1007FBA93 /* Build configuration list for PBXNativeTarget "Seduko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1F6894240F59F1007FBA93 /* Debug */,
+				BC1F6895240F59F1007FBA93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1F6896240F59F1007FBA93 /* Build configuration list for PBXNativeTarget "SedukoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1F6897240F59F1007FBA93 /* Debug */,
+				BC1F6898240F59F1007FBA93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1F6899240F59F1007FBA93 /* Build configuration list for PBXNativeTarget "SedukoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1F689A240F59F1007FBA93 /* Debug */,
+				BC1F689B240F59F1007FBA93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC1F6861240F59F0007FBA93 /* Project object */;
+}
